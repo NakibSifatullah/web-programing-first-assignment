@@ -1,3 +1,115 @@
-body{
-    background-color: antiquewhite;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Tangerine:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+body{
+    font-family: 'Lato', sans-serif;
+    
+}
+#head-section{
+    display: flex;
+    background-color: rgb(204, 240, 201);
+    background-image: url('images/background/bg3.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding: 50px;
+    letter-spacing: 2px;
+}
+.mid-color{
+    color: rgb(20, 90, 219);
+    font-family: 'Tangerine', cursive;
+    font-weight: 700;
+    font-size: 50px !important;
+}
+.head-left{
+    width: 60%;
+    padding: 6%;
+}
+.head-left h1{
+    font-size: 30px;
+}
+.head-right{
+    width: 40%;  
+
+}
+.head-right img{
+    width: 100%;
+}
+.head-left h5{
+    margin-top: 20px;
+    color: #2980b9;
+    padding: 10px;
+    font-size: 2.5em;
+    font-family: 'Tangerine', cursive;
+    margin-bottom: 50px;
+}
+.link-btn{
+    text-decoration: none;
+    background: linear-gradient(to right ,rgb(47, 111, 230), #91c4e5);
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 20px;
+    
+}
+/* Head section end here */
+
+/* About section start here */
+#about-section{
+    display: flex;
+    width: 100%;
+    padding: 50px;
+    background-image: url('images/background/bg1.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-section-left{
+    width: 50%;
+    text-align: center;
+    
+}
+.about-section-left img{
+    width: 100%;
+    
+}
+.about-section-right{
+    width: 50%;
+    padding: 6%;
+    padding-right: 15% !important;
+    background-image: url('images/background/bg2.png');
+    background-position: right;
+    background-repeat: no-repeat; 
+
+}
+.about-section-right h3{
+
+    font-size: 30px;
+    color: rgb(20, 90, 219);
+    font-family: 'Tangerine', cursive;
+    font-weight: 700;
+    font-size: 50px !important;
+}
+.about-section-right p{
+    font-size: 20px ;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+.about-link-btn{
+    text-decoration: none;
+    background: linear-gradient(to right ,rgb(47, 111, 230), #91c4e5);
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 20px;
+}
+/* About section end here */
+
+/* Recipies section start here */
+
+#recipies{}

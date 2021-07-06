@@ -9,6 +9,8 @@ body{
     box-sizing: border-box;
     
 }
+
+/* Head section start here */
 #head-section{
     display: flex;
     background-color: rgb(204, 240, 201);
@@ -112,7 +114,6 @@ body{
 /* About section end here */
 
 /* Recipies section start here */
-
 #recipies{
     padding-top: 100px;
     padding-bottom: 100px;
@@ -172,7 +173,6 @@ body{
     letter-spacing: 1.5px;
 }
 /* recipies end */
-
 
 /* Counter start */
 #counter-section {
@@ -262,6 +262,7 @@ body{
     border-radius: 20px;
     border: none;
 }
+/* Conatct end */
 
 /* Footer start*/
 footer{
@@ -283,3 +284,4 @@ footer p{
     margin-top: 10px;
     letter-spacing: 1.5px;
 }
+/* Footer end */

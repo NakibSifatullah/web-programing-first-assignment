@@ -115,7 +115,11 @@ body{
 
 #recipies{
     padding-top: 100px;
-    padding-bottom: 100px;  
+    padding-bottom: 100px;
+    background-color: #eef2f3;
+    background-image: url('images/background/bg3.png'); 
+    background-position: bottom; 
+    background-repeat: no-repeat;
 }
 .recipies-top{
     width: 100%;
@@ -165,5 +169,117 @@ body{
 }
 .recipies-bottom-part p{
     line-height: 1.5;
+    letter-spacing: 1.5px;
+}
+/* recipies end */
+
+
+/* Counter start */
+#counter-section {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #eef2f3;
+    background-image: url(images/background/bg3.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.counter {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    box-shadow: 3px 4px 20px rgb(0 0 0 / 50%);
+    padding: 30px;
+    border-radius: 30px;
+}
+.counter-part {
+    width: 31%;
+    margin: 0 1%;
+}
+.counter-part h1{
+    color: rgb(20, 90, 219);
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.counter-part p{
+    font-size: 12px;
+    letter-spacing: 1.5px;
+}
+/* Counter end */
+
+/* Contact start */
+#contact-us{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(204, 240, 201);
+    background-image: url(images/background/bg3.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    
+
+}
+#contact-us h3{
+    text-align: center;
+    color: rgb(20, 90, 219);
+    font-family: 'Tangerine', cursive;
+    font-weight: 700;
+    font-size: 50px !important;
+    letter-spacing: 1.2px;
+    margin-bottom: 50px;
+}
+#contact-us form{
+    text-align: center;
+}
+#contact-us form input{
+    width:50%;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+#contact-us form textarea{
+    width:50%;
+    padding: 10px 20px;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+#contact-us form input:focus{
+    outline: none;
+}
+#contact-us form textarea:focus{
+    outline: none;
+}
+.ct-btn{
+    text-align: center;
+    margin-top: 50px;
+}
+.contact-btn{
+    text-decoration: none;
+    background: linear-gradient(to right ,rgb(47, 111, 230), #91c4e5);
+    padding: 10px 50px;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 20px;
+    border: none;
+}
+
+/* Footer start*/
+footer{
+   padding-top: 50px;
+   padding-bottom: 50px;
+   text-align: center;
+   background-color:#2c3e50;
+   color: #fff;
+}
+footer span{
+    text-align: center;
+    color: rgb(20, 90, 219);
+    font-family: 'Tangerine', cursive;
+    font-weight: 700;
+    font-size: 50px !important;
+    letter-spacing: 1.2px;
+}
+footer p{
+    margin-top: 10px;
     letter-spacing: 1.5px;
 }
